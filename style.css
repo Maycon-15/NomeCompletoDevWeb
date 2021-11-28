@@ -38,7 +38,7 @@ form button {
 #mensagem > * {
   text-align: center;
 }
-button:houver {
+button:hover {
   box-shadow: 5px 5px 0 var(--cor-letra);
 }
 button {

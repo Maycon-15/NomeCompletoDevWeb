@@ -9,7 +9,7 @@ const processar = () => {
   const sobrenomedigitado = camposobrenome.value;
 
   const nomeCompleto = `${nomedigitado}  ${sobrenomedigitado}`;
-  const nomeCatalogo = `${sobrenomedigitado.toUpperCase()}, ${nomedigitado}`;
+  const nomeCatalogo = `${sobrenomedigitado.toUpperCase()}, ${nomedigitado.toLowerCase()}`;
 
   const mensagem = document.querySelector("#mensagem");
   mensagem.innerHTML = `
