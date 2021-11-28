@@ -1,0 +1,46 @@
+:root {
+  --cor-fundo: #b983ff;
+  --cor-letra: #99feff;
+  --cor-fundo-campos: #94daff;
+  --cor-letra-campos: #b983ff;
+}
+
+body {
+  font-size: 16px;
+  max-width: 30rem;
+  margin: 0 auto;
+  background-color: var(--cor-fundo);
+  color: var(--cor-letra);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 0.25em;
+}
+
+form input {
+  font-size: 1.25em;
+}
+
+form button {
+  padding: 0.8em;
+}
+
+#mensagem {
+  margin: 1em;
+  text-align: center;
+}
+
+#mensagem > * {
+  text-align: center;
+}
+button:houver {
+  box-shadow: 5px 5px 0 var(--cor-letra);
+}
+button {
+  cursor: pointer;
+}
